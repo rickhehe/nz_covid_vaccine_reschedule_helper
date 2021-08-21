@@ -103,7 +103,7 @@ def main():
         slots = get_slots(
             dates=dates,
             vaccineData=v_data['vaccineData'],
-            locationId=v_data['vaccineData']
+            locationId=v_data['locationId']
             
         )
 
