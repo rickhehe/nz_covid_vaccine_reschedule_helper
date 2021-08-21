@@ -63,13 +63,13 @@ def get_dates(locationId, vaccineData):
 
         return dates
 
-def get_slots(dates, vaccineData):
+def get_slots(dates, vaccineData, locationId):
     
     a_dict = defaultdict(dict)
 
     for a_date in dates:
         
-        url = f'https://skl-api.bookmyvaccine.covid19.health.nz/public/locations/a0R4a000000RxNXEA0/date/{a_date}/slots'
+        url = f'https://skl-api.bookmyvaccine.covid19.health.nz/public/locations/{locationId}/date/{a_date}/slots'
         
         payload = {
             'vaccineData': vaccineData,
@@ -102,7 +102,9 @@ def main():
     if dates:
         slots = get_slots(
             dates=dates,
-            vaccineData=v_data['vaccineData']
+            vaccineData=v_data['vaccineData'],
+            locationId=v_data['vaccineData']
+            
         )
 
         for d, s in slots.items():
