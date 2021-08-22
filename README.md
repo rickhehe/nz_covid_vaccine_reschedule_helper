@@ -1,6 +1,6 @@
 # NZ Covid Vaccination Reschedule Helper
 
-It is helpful if you have made your booking and you would like to reschedule you jab in the same location.
+It is helpful if you have made your booking and you would like to **reschedule** your jab in the **SAME** location.
 
 It **WON'T** reschedule your booking directly.
 
