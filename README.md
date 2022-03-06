@@ -1,9 +1,7 @@
-# NZ Covid Vaccination Reschedule Helper
+# NZ Covid Vaccination Rescheduler
 
-It is helpful if you have made your booking and you would like to **RESCHEDULE** your jab in the **SAME** location.
+This is my first web scrapping project. I used this to reschedule the first shot for myself, my wife, and a bunch of friends. No need for this now, but it's great practice for me.
 
-It **WON'T** reschedule your booking directly.
-
-It only shows **available date and slots** if there is any.
+I learned a lot from [John's channel](https://www.youtube.com/c/JohnWatsonRooney). Thanks to him.
 
 #UnitedAgainstCovid19
